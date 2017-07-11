@@ -1,0 +1,22 @@
+version:1.2.0
+date:2016-11-14
+
+缺陷
+[CD-429] - 获取flume的状态信息时，没有关闭HttpURLConnection连接
+[CD-433] - 上海项目解决打开句柄过多问题
+[CD-434] - 上海项目作业删除时报NullPointerException
+[CD-435] - 上海项目flume作业被抢占后，运行状态不对
+[CD-437] - 上海项目，FTP作业恢复后需要继续上次的文件读取
+[CD-439] - 需要修改上海项目中HiveOutput，优化性能
+[CD-447] - 多个作业同时向同一个hive表里装载数据异常
+[CD-450] - 上海项目，远程执行命令阻塞请求
+[CD-459] - 当flume的多个hdfsSink写到同一个目录时，会有冲突
+[CD-474] - Kafka2FTP，文件按记录条数切割后会多出一条记录，需要修改
+[CD-489] - CD Schedluer提示创建FlumeJob失败，但是实际上该任务已创建成功
+[CD-500] - cd schduler中出现很多job进程号为0的情况
+新特性
+[CD-404] - 上海项目，flume的作业信息用zookeeper存储
+改进
+[CD-328] - 优化上海项目脚本，增加停止服务脚本
+[CD-392] - 当sink为hdfs时，会memory会有时会报channel已满的异常
+[CD-457] - 上海项目中流式抽取不支持按文件记录条数切分文件，需要改进
